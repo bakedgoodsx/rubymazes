@@ -1,0 +1,18 @@
+Clarity
+
+What is parsemap supposed to do?
+
+What does it receive?
+
+it receives a maze that looks like
+mp, startloc, endloc
+looks like
+1. nested array.
+[[7,9,6,5,11],[7,6,20,4,-2],[6,4,4,2]]
+2. number - 8 - the value of start location A
+3. number - 9 - the value of end location B
+
+self.currentloc : refers to the index position of the
+maze row currently looked at by getpossiblemoves.
+
+self.lastloc : retains latest value of self.currentloc. 
